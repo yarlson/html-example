@@ -5,7 +5,7 @@
       <h2>Registration</h2>
       <input type="email" placeholder="Email" name="email" required><br>
       <input type="password" placeholder="Password" name="password" required><br>
-      <input type="submit" value="Register">
+      <input type="submit" value="Register" hx-get="./button.html" hx-target="#popupForm" hx-swap="outerHTML">
     </form>
   </div>
 </div>
